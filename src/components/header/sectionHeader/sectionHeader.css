@@ -1,0 +1,39 @@
+.info {
+  display: flex;
+  width: 50%;
+  background-color: var(--var-color-secciones);
+  align-items: center;
+  justify-content: center;
+  color: var(--var-color-3);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.apartados {
+  display: flex;
+  gap: var(--var-gap-m);
+}
+.apartados > li {
+  list-style: none;
+  cursor: pointer;
+}
+.apartados > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+.btnContacto {
+  background-color: transparent;
+  border: none;
+  color: var(--var-color-3);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: var(--var-padding-xs);
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  font-size: 22px;
+}
+@media (max-width: 1000px) {
+  .info {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+#header {
+  background-color: var(--var-color-background-color);
+  width: 100%;
+  height: 8svh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--var-color-secciones);
+}
+.h2-nombre {
+  color: var(--var-color-3);
+  font-weight: 600;
+  font-size: 28px;
+}

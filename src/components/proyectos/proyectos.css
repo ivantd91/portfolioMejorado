@@ -1,0 +1,44 @@
+.seccion-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--var-gap-m);
+  padding: var(--var-padding-l) var(--var-padding-s);
+  background-color: rgb(139, 176, 233);
+}
+
+.tarjeta-proyecto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: var(--var-padding-s);
+  width: 280px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--var-color-secciones);
+  text-align: center;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.tarjeta-proyecto h3 {
+  margin-bottom: var(--var-margin-xs);
+  font-size: 18px;
+}
+
+.tarjeta-proyecto p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: var(--var-color-2);
+}
+
+.tarjeta-proyecto .botones a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: #64af66;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
