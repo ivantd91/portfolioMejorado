@@ -20,7 +20,7 @@ export function descripcion() {
   fotoPerfil.className = 'divFotoPerfil'
   const foto = document.createElement('img')
   foto.className = 'fotoPerfil'
-  foto.src = './src/assets/imagen/yo.jpeg'
+  foto.src = '/img/Yo.jpeg'
   foto.alt = 'Foto perfil'
 
   fotoPerfil.appendChild(foto)

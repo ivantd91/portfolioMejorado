@@ -1,48 +1,47 @@
 export const lenguajes = [
   {
     nombre: 'HTML',
-    logo: './src/assets/imagen/html-5.png',
+    logo: '/img/html-5.png',
     porcentaje: 100
   },
   {
     nombre: 'CSS',
-    logo: './src/assets/imagen/css-3.png',
+    logo: '/img/css-3.png',
     porcentaje: 100
   },
   {
     nombre: 'JavaScript',
-    logo: './src/assets/imagen/js.png',
+    logo: '/img/js.png',
     porcentaje: 75
   },
-
   {
     nombre: 'VS Code',
-    logo: './src/assets/imagen/visual-studio-code.png',
+    logo: '/img/visual-studio-code.png',
     porcentaje: 90
   },
   {
     nombre: 'React Native',
-    logo: './src/assets/imagen/react+native.png',
+    logo: '/img/react+native.png',
     porcentaje: 0
   },
   {
     nombre: 'Angular',
-    logo: './src/assets/imagen/angular.png',
+    logo: '/img/angular.png',
     porcentaje: 0
   },
   {
     nombre: 'IONIC',
-    logo: './src/assets/imagen/ionic.jpg',
+    logo: '/img/ionic.jpg',
     porcentaje: 0
   },
   {
     nombre: 'Next.js',
-    logo: './src/assets/imagen/nextjs.png',
+    logo: '/img/nextjs.png',
     porcentaje: 0
   },
   {
     nombre: 'React',
-    logo: './src/assets/imagen/react.png',
+    logo: '/img/react.png',
     porcentaje: 0
   }
 ]
